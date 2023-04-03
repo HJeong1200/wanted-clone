@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
 import GNBElements from "../../constants/GNBElements";
+import HeaderButton from "./HeaderButton";
 
 const GNB = () => {
   return (
     <div className="header-center">
       {GNBElements.map((el) => {
-        return <span key={el}>{el}</span>;
+        return <HeaderButton name={el} to={"/"} />;
       })}
     </div>
   );

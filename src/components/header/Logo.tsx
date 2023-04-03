@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <div className="header-left">
       <MenuRounded />
-      <div id="logo">Wanted</div>
+      <div id="logo">wanted</div>
     </div>
   );
 };
