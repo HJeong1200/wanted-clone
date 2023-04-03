@@ -1,0 +1,36 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  height: 50px;
+  display: flex;
+  padding: 0 10%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eaeaea;
+  background-color: #fff;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.header-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  min-width: fit-content;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
