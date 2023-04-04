@@ -1,11 +1,11 @@
 import Header from "./components/header/Header";
-import Jobs from "./components/jobs/Jobs";
+import Products from "./components/products/Products";
 
 const App = () => {
   return (
     <>
       <Header />
-      <Jobs />
+      <Products />
     </>
   );
 };

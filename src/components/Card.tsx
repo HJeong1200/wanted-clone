@@ -1,7 +1,7 @@
 import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 
 interface PropType {
-  image: string;
+  thumbnail: string;
   title: string;
   subtitle1?: string;
   subtitle2?: string;
@@ -9,7 +9,7 @@ interface PropType {
 }
 
 const CardContainer = ({
-  image,
+  thumbnail,
   title,
   subtitle1,
   subtitle2,
@@ -17,7 +17,7 @@ const CardContainer = ({
 }: PropType) => {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardMedia sx={{ height: 140 }} image={image} />
+      <CardMedia sx={{ height: 200 }} image={thumbnail} />
       <CardContent>
         <Typography gutterBottom variant="h5">
           {title}
