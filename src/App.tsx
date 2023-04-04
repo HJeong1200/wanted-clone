@@ -1,11 +1,17 @@
+import { Route, Routes } from "react-router-dom";
 import Header from "./components/header/Header";
-import Products from "./components/products/Products";
+import ProductListPage from "./pages/ProductsListPage";
 
 const App = () => {
   return (
     <>
       <Header />
-      <Products />
+      <div className="main-container">
+        <Routes>
+          <Route path="/products" element={<ProductListPage />} />
+          <Route path="/products/:id" element={<ProductListPage />} />
+        </Routes>
+      </div>
     </>
   );
 };

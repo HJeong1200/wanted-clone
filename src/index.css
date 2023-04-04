@@ -6,3 +6,17 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}

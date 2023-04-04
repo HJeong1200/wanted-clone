@@ -16,7 +16,7 @@ const CardContainer = ({
   subtitle3,
 }: PropType) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ minWidth: 200, maxWidth: 345 }}>
       <CardMedia sx={{ height: 200 }} image={thumbnail} />
       <CardContent>
         <Typography gutterBottom variant="h5">
